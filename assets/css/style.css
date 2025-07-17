@@ -303,4 +303,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: -7px;
+}
+
+.hero .media-block .avatar-group img:first-child{
+  margin-left: 0;
 }
