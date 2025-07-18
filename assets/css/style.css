@@ -22,7 +22,7 @@ a {
 }
 
 .main-content {
-  width: 1440px;
+  width: 1170px;
   margin-left: auto;
   margin-right: auto;
   max-width: calc(100% - 48px);
@@ -129,7 +129,7 @@ a {
 }
 
 .hero .content-block {
-  width: 55%;
+  width: 45%;
   margin-left: auto;
 }
 .hero .content-block .icon {
@@ -185,7 +185,7 @@ a {
 }
 
 .hero .media-block {
-  width: 45%;
+  width: 55%;
   height: 700px;
   margin-right: auto;
   height: 640px;
@@ -382,3 +382,110 @@ a {
   margin-left: 205px;
 }
 
+/* ======================popular======================= */
+.popular .body {
+  margin-top: 130px;
+}
+
+.popular .heading-lv2 {
+  margin-top: 18px;
+}
+
+.popular .link {
+  margin-top: 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular .link .desc {
+  width: 525px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: 1.78; /* 177.778% */
+}
+
+.popular .link a {
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.popular .popular-list {
+  margin-top: 79px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular .item {
+  position: relative;
+}
+
+.popular .item .image {
+  width: 359px;
+  height: 393px;
+  object-fit: cover;
+  border-radius: 8px;
+  opacity: 0.35;
+  background: #d0efed;
+}
+
+.popular .popular-list .popular-group {
+  width: 325px;
+  height: 195px;
+  position: absolute;
+  top: 322px;
+  left: 17px;
+  right: 17px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.popular .popular-group .info {
+  margin: 18px 0px 29px 25px;
+}
+
+.popular .popular-group .info .price {
+  margin-top: 16px;
+  color: #767e7e;
+  font-size: 1.6rem;
+}
+
+.popular .popular-group .info .price strong {
+  margin-left: 6px;
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.popular-group .info .price + .desc {
+  margin-top: 6px;
+  color: #9da6a5;
+  font-size: 1.4rem;
+}
+
+.popular-group .info .stats {
+  margin-top: 18px;
+}
+
+.popular-group .info .stats .desc {
+  color: #9da6a5;
+  font-size: 1.4rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.popular-group .info .stats .desc:last-child {
+  margin-left: 8px;
+}
+
+.popular-group .info .stats .desc::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: var(--primmany-color);
+  border-radius: 50%;
+  margin-right: 8px;
+}
