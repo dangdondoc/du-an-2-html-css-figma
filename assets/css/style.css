@@ -33,10 +33,9 @@ a {
   border-radius: 6px;
   border: 1px solid #1ebfc1;
   min-width: 108px;
-
 }
 
-.btn:hover{
+.btn:hover {
   opacity: 0.9;
 }
 
@@ -46,16 +45,22 @@ a {
   font-weight: 500;
 }
 
+.note {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
 .heading-lv2 {
   color: #0d1111;
   font-size: 4.2rem;
   font-weight: 700;
 }
 
-.heading-lv3{
-  color: #0D1111;
-font-size: 20px;
-font-weight: 600;
+.heading-lv3 {
+  color: #0d1111;
+  font-size: 20px;
+  font-weight: 600;
 }
 /*====================== header============================== */
 
@@ -115,7 +120,6 @@ font-weight: 600;
   font-size: 1.6rem;
   font-weight: 600;
 }
-
 
 /* =================hero================= */
 
@@ -329,14 +333,9 @@ font-weight: 600;
   margin-left: 0;
 }
 
+/* ========================features====================== */
 .features .body {
   margin-top: 130px;
-}
-
-.features .note {
-  color: #767e7e;
-  font-size: 1.2rem;
-  font-weight: 700;
 }
 
 .features .heading-lv2 {
@@ -362,25 +361,24 @@ font-weight: 600;
   height: 106px;
   object-fit: cover;
   border-radius: 18px;
-
 }
 
-.features .features-list .heading-lv3{
+.features .features-list .heading-lv3 {
   margin-top: 26px;
 }
-.features .features-list .desc{
-  color: #9DA6A5;
+.features .features-list .desc {
+  color: #9da6a5;
   width: 168px;
-font-size: 1.6rem;
-line-height: 1.69; /* 168.75% */
-margin-top: 16px;
+  font-size: 1.6rem;
+  line-height: 1.69; /* 168.75% */
+  margin-top: 16px;
 }
 
-.features .features-list .item +.item .desc-note{
+.features .features-list .item + .item .desc-note {
   width: 224px;
-
 }
 
-.features .features-list .item +.item{
-    margin-left: 205px;
+.features .features-list .item + .item {
+  margin-left: 205px;
 }
+
