@@ -81,9 +81,10 @@ a {
 }
 
 .header .logo {
-  width: 127px;
-  height: 37px;
+  width: 200px;
+  height: 65px;
   margin-right: auto;
+  object-fit: cover;
 }
 
 .header .nav ul {
@@ -517,4 +518,142 @@ a {
   color: #767e7e;
   text-align: center;
   font-size: 1.8rem;
+}
+
+/* ====================testimonial =====================*/
+
+.testimonial .body {
+  display: flex;
+  margin-top: 264px;
+}
+
+.testimonial .content {
+  height: 481px;
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  margin: 37px 0;
+}
+
+.testimonial .content .quote-img {
+  width: 36px;
+  height: 29px;
+}
+
+.testimonial .content .desc.quote {
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5; /* 150% */
+  margin-top: 27px;
+}
+
+.testimonial .content .student .dash {
+  width: 8px;
+  height: 2px;
+  background: #070707;
+  margin-right: 5px;
+}
+
+.testimonial .content .student .ben strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.testimonial .content .student {
+  margin-top: 33px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial .content .btn-button {
+  margin-top: 52px;
+  display: flex;
+  gap: 30px;
+}
+
+.testimonial .content .btn-button button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--primmany-color);
+}
+
+.testimonial .content .btn-button button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.testimonial .image-media {
+  width: 58%;
+  /* height: 481px; */
+  position: relative;
+}
+
+.testimonial .image-media .avar1,
+.avar4 {
+  background: #696ab0;
+  background: linear-gradient(
+    179deg,
+    rgba(105, 106, 176, 1) 0%,
+    rgba(179, 113, 176, 1) 57%,
+    rgba(242, 180, 160, 1) 100%
+  );
+  object-fit: cover;
+}
+
+.testimonial .image-media .avar2,
+.avar5 {
+  object-fit: cover;
+  background: #d880d8;
+}
+
+.avar1 {
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  left: 140px;
+}
+
+.avar2 {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  top: 19px;
+  right: 0;
+}
+
+.avar3 {
+  position: absolute;
+  width: 235px;
+  height: 235px;
+  object-fit: cover;
+  border-radius: 50%;
+  top: 107px;
+  right: 200px;
+}
+
+.avar4 {
+  position: absolute;
+  height: 100px;
+  width: 250px;
+  object-fit: cover;
+  bottom: 20px;
+  left: 30px;
+  border-radius: 20px;
+}
+
+.avar5 {
+  width: 150px;
+  height: 260px;
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+  border-radius: 15px;
 }
