@@ -489,3 +489,32 @@ a {
   border-radius: 50%;
   margin-right: 8px;
 }
+
+/* ====================countdown====================== */
+
+.countdown .body {
+  margin: 265px auto 0px;
+  width: 862px;
+  height: 131px;
+}
+
+.countdown .countdown-list {
+  display: flex;
+  width: 862px;
+  height: 131px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.countdown .item strong {
+  color: #0d1111;
+  font-size: 62px;
+  font-weight: 700;
+}
+
+.countdown .item p {
+  margin: 11px auto 0;
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+}
