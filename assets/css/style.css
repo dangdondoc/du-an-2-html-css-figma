@@ -657,3 +657,40 @@ a {
   bottom: 15px;
   border-radius: 15px;
 }
+
+/* ===================CTA======================= */
+
+.cta {
+  margin-top: 130px;
+  height: 272px;
+  background: #def6f5;
+}
+
+.cta-list {
+  padding: 77px 154px 88px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cta-desc {
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.cta-list .cta-get {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 186px;
+  height: 68px;
+  border-radius: 14px;
+  background: #2ac9bf;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
